@@ -19,7 +19,7 @@ variable "number_of_strings" {
 resource "random_string" "strings" {
   count = var.number_of_strings
 
-  length  = 16
+  length  = 24
   special = false
   upper   = true
   lower   = true
