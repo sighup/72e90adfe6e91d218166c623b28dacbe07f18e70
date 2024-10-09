@@ -12,7 +12,7 @@ terraform {
 variable "number_of_strings" {
   description = "Number of random strings to generate"
   type        = number
-  default     = 3
+  default     = 5
 }
 
 # Generate random strings using a for_each loop
